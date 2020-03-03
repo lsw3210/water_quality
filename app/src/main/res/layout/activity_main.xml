@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Spinner
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner_field1"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/editbox"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner_field2"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/editbox"
+            android:textColor="@color/black"/>
+<LinearLayout
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:padding="0dp">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="27dp"
+            android:onClick="sel_start_day"
+            android:text="시작일"
+            android:textSize="13sp"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="27dp"
+            android:onClick="sel_end_day"
+            android:text="종료일"
+            android:textSize="13sp"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_gravity="center"/>
+</LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:onClick="mOnClick"
+            android:text="조  회"
+            android:textSize="13sp" />
+
+        <DatePicker
+            android:id="@+id/dataPicker"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
+
+
+
+    </LinearLayout>
+ <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/result4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </ScrollView>
+</LinearLayout>

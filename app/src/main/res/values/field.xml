@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region">
+        <item>경기</item>
+        <item>강원</item>
+        <item>충북</item>
+        <item>충남</item>
+        <item>전북</item>
+        <item>전남</item>
+        <item>경북</item>
+        <item>경남</item>
+    </string-array>
+
+    <string-array name="gyeongi">
+        <item>반월정수장</item>
+        <item>와부정수장</item>
+        <item>성남정수장</item>
+        <item>시흥정수장</item>
+        <item>수지정수장</item>
+        <item>덕소정수장</item>
+        <item>고양정수장</item>
+        <item>파주정수장</item>
+        <item>일산정수장</item>
+    </string-array>
+    
+    <string-array name="gangwon">
+        <item>황지정수장</item>
+        <item>송전정수장</item>
+    </string-array>
+
+    <string-array name="chungbuk">
+        <item>충주정수장</item>
+        <item>청주정수장</item>
+    </string-array>
+
+    <string-array name="chungnam">
+        <item>천안정수장</item>
+        <item>석성정수장</item>
+        <item>보령정수장</item>
+        <item>공주정수장</item>
+        <item>금산정수장</item>
+        <item>아산정수장</item>
+    </string-array>
+
+    <string-array name="chunbuk">
+        <item>고산정수장</item>
+        <item>산성정수장</item>
+        <item>부안정수장</item>
+        <item>동화정수장</item>
+        <item>군산정수장</item>
+    </string-array>
+
+    <string-array name="chunnam">
+        <item>화순정수장</item>
+        <item>평림정수장</item>
+        <item>덕정정수장</item>
+        <item>별량정수장</item>
+        <item>대불정수장</item>
+    </string-array>
+
+    <string-array name="gyeongbuk">
+        <item>구미정수장</item>
+        <item>학야정수장</item>
+        <item>자인정수장</item>
+        <item>운문정수장</item>
+        <item>고령정수장</item>
+    </string-array>
+
+    <string-array name="gyeongnam">
+
+        <item>밀양정수장</item>
+        <item>양산정수장</item>
+        <item>사천정수장</item>
+        <item>온산정수장</item>
+        <item>반송정수장</item>
+        <item>연초정수장</item>
+        <item>구천정수장</item>
+    </string-array>
+</resources>
